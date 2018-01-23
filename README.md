@@ -62,9 +62,10 @@
 - reserveWindow: 在内存中保留过去多久的聚合结果. 20分钟前的数据会丢弃(避免极端情况下无限使用内存).  5分钟之前, 20分钟以内的数据不会丢掉, 而是继续处理. 在下个5分钟后一起输出.
 - add_fields: 可选项. 主要为聚合数据打标签, 和原始数据区分开.
 
-BUG: 
+## BUG: 
 1. 如果时间戳比当前时间更晚, reserveWindow不会生效, 可能会导致内存使用过多.
 2. 如果数据不是源源不断的, 最后一批聚合数据不会输出... 因为它不能被触发.
 
-安装:
+## 安装:
+
 下载https://github.com/childe/hangout-filter-linkmetric/releases/download/0.1/hangout-filters-statmetric-0.1.jar, 复制到hangout/modules下面.
