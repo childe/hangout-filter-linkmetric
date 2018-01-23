@@ -65,3 +65,8 @@
 BUG: 
 1. 如果时间戳比当前时间更晚, reserveWindow不会生效, 可能会导致内存使用过多.
 2. 如果数据不是源源不断的, 最后一批聚合数据不会输出... 因为它不能被触发.
+
+安装:
+下载https://github.com/childe/hangout-filter-linkmetric/releases/download/0.1/hangout-filters-statmetric-0.1.jar, 复制到hangout/modules下面.
+
+    fieldsLink: 'clientip->serverip->url'
