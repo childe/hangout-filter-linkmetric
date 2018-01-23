@@ -1,7 +1,6 @@
-package com.example.filter;
+package com.ctrip.ops.hangout.filter;
 
 
-import org.apache.log4j.net.SyslogAppender;
 import org.joda.time.DateTime;
 
 import java.util.*;

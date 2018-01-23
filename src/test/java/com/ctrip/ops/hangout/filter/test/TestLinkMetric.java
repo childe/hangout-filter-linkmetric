@@ -1,4 +1,4 @@
-package com.example.filter.test;
+package com.ctrip.ops.hangout.filter.test;
 
 
 import java.util.ArrayList;
@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.example.filter.LinkMetric;
+import com.ctrip.ops.hangout.filter.LinkMetric;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
