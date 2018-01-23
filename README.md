@@ -68,5 +68,3 @@ BUG:
 
 安装:
 下载https://github.com/childe/hangout-filter-linkmetric/releases/download/0.1/hangout-filters-statmetric-0.1.jar, 复制到hangout/modules下面.
-
-    fieldsLink: 'clientip->serverip->url'
